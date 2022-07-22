@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Giriş Yap</legend>
+            <label for="kadi">kullanıcı adı</label>
+            <input required maxlength="8" id="kadi" type="text"><br>
+            <label for="sifre">şifre</label>
+            <input type="password" required><br>
+            <label for="eposta">E-posta</label>
+            <input type="email" required id="eposta">
+            <input type="number" min="5" max="40"><br>url
+            <input type="url" required> <br>
+            <label for="dosya">dosya seç</label><br>
+            <input type="file" id="dosya" multiple accept="image/*"><br>
+            <label>
+            <input type="checkbox" required>kuralları kabul ediyorum
+        </fieldset>
+        </label><br>
+        <label>
+            erkek
+            <input type="radio" name="cinsiyet" required value="erkek">
+        </label>
+        <label>
+            kadın
+            <input type="radio" name="cinsiyet" required value="kadın">
+        </label><br>
+        <input type="hidden" name="test" value="test">
+        <input type="submit" value="gönder">
+        <input type="reset" value="sıfırla">
+
+        </form>
+        <br><br><br><br>
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="month">
+        <input type="number">
+        <input type="range">
+        <input type="search">
+        <input type="time"><br><br>
+        <br><br>
+        <input type="text" name="kadi" autocomplete="off"><BR><br><br></BR>
+        <input list="diller">
+        <datalist id="diller">
+            <option value="HTML"></option>
+                <option value="CSS"></option>
+                    <option value="JAVA"></option>
+                        <br><br>
+                       
+                
+        </datalist><br> <br><br>
+        <textarea border="1" cols="30" rows="10">
+
+        </textarea>
+        <button type="submit">gönder</button>
+
+    </body>
+</html>
